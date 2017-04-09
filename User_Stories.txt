@@ -1,0 +1,57 @@
+﻿User-Stories:
+
+- Status einsehen
+	Als Kunde will ich den aktuellen Status meiner Bestellung einsehen, damit ich weiß wann meine Pizza kommt.
+
+		Test 1: Nachdem ich die Pizza bestellt habe und die Statusseite aufrufe, sehe ich dort den aktuellen Status
+
+		Test 2: Wenn die Pizza unterwegs ist, ist der Status auf „unterwegs“
+
+
+- Automatisches aktualisieren 1
+	Als Fahrer soll die Liste der auszuliefernden Pizzen automatisch aktualisiert werden, damit ich	ohne Aufwand immer den aktuellen Stand sehe.
+
+		Test 1: Wenn eine neue Bestellung fertig ist, wird diese automatisch meiner Liste hinzugefügt. (Bestellung = Alle Pizzen einer Bestellung)
+
+		Test 2: Wenn ich eine Pizza als ausgeliefert markiert habe, verschwindet diese aus meiner Liste
+
+
+-Automatisches aktualisieren 2
+ 	Als Pizzabäcker soll die Bestellliste automatisch aktualisiert werden, damit ich ohne Aufwand immer den aktuellen Stand sehe.
+
+		Test 1: Wenn eine neue Bestellung aufgegeben, wird diese mir in der Liste automatisch angezeigt
+
+		Test 2: Wenn der Fahrer eine Bestellung übernimmt, verschwindet diese aus meiner Liste (übernimmt = Status: unterwegs)
+
+
+- neue Pizza hinzufügen
+	Der Besitzer hat einen Servicevertrag mit den Entwicklern, damit diese eine neue Pizza nach telefonischer Rücksprache für eine Servicepauschaule von 19,90 € hinzufügen. (Dauer max. 24 Stunden).
+
+		Test 1: Der Besitzer ruft die Entwickler an, diese fügen die gewünschte Pizza hinzu und stellen dies in Rechnung.
+
+
+- Auswahl bearbeiten
+	Als Kunde will ich meinen Warenkorb ändern können, damit ich z.B. Fehleingaben korrigieren kann.
+
+		Test 1: Der Kunde füllt seinen Warenkorb und klickt auf „Alles löschen“. Danach ist alles gelöscht.
+
+		Test 2: Der Kunde markiert einen Warenkorbeintrag, klickt dann auf ,,Auswahl löschen“, diese Auswahl ist dann gelöscht.
+
+- Bedienung via Smartphone
+	Als Kunde will ich eine angepasste Seite sehen, wenn ich diese via Smartphone aufrufe, damit ich ein besseres User Experience habe.
+
+		Test 1: Website über normalen PC aufrufen, Darstellung ist normal.
+
+		Test 2: Website über Smartphone aufrufen, Darstellung ist angepasst.
+
+- Warenkorb befüllen
+	Als Kunde will ich auf ein Pizzasymbol klicken, damit diese Pizza meinem Warenkorb hinzugefügt wird.
+
+- Bestellung validieren
+	Als Besitzer will ich, dass die Adressdaten validiert werden, damit jede Bestellung ausgeliefert werden kann. 
+
+	
+
+	
+	
+ 
